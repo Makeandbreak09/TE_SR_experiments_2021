@@ -5,6 +5,7 @@ from os import mkdir, chdir
 from shutil import copy2
 from sys import stdout, stderr, exit
 from time import sleep
+import os
 
 # Name of the output CSV file
 OUTPUT_FILE = '../batch_result001.csv'
@@ -13,8 +14,16 @@ class Tests:
 	def __init__(self):
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
-		self.TESTFILES = ['Joint.topo.sh', 'Weights.topo.sh']
-		self.JSON_FILES = ['joint.json', 'weights.json']
+		self.TESTFILES = [
+			# 'Joint.topo.sh', 
+			# 'Weights.topo.sh', 
+			'LeastLoadedLinkFirst.topo.sh'
+		]
+		self.JSON_FILES = [
+			# 'joint.json', 
+			# 'weights.json', 
+			'least_loaded_link_first.json'
+		]
 		# ID of the first test.
 		# This number is used in the CSV file for identification and in the filename.
 		# It is incremented for every new test case.
@@ -34,7 +43,7 @@ class Tests:
 	# Read the JSON file and fill the self.CAPACITY matrix.
 	def read_json(self, test_name : str):
 		json_filename = self.JSON_FILES[self.TESTFILES.index(test_name)]
-		with open('../' + json_filename) as json_file:
+		with open("../" + json_filename) as json_file:
 			data = json.load(json_file)
 		links = data['links']
 		for e in links:
@@ -77,9 +86,22 @@ class Tests:
 			print(p.stdout, file=logfile)
 			print(p.stderr, file=logfile)
 
+		# Check every few seconds, if test is still running
+		running = True
+		interval = 5
+		print(f"Check every {interval}sec if test is finished ...")
+
+		while running:
+			p = run(['atq'], stdout=PIPE, stderr=PIPE, encoding='ascii')
+			sleep(interval)
+			if p.stdout == '':
+				print(f"Test {self.TEST_ID} has finished.")
+				running = False
+
+
 		# Wait 8 minutes so that all tests are finished ...
-		sleep(8 * 60)
-		print("Test should be finished ...")
+		# sleep(8 * 60)
+		# print("Test should be finished ...")
 
 	# Stop all running test cases and remove the namespaces.
 	def finish_test_case(self, test_name : str):
