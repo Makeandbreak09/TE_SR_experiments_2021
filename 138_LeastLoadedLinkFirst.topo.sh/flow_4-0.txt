@@ -1,0 +1,14 @@
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 3
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 4
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 6
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 8
+
+    0.0000 MB /   0.00 sec =    0.0000 Mbps 83 %TX 0 %RX 6.29 msRTT

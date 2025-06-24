@@ -1,0 +1,16 @@
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 2
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 4
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 6
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 8
+nuttcp-r: v6.1.2: Error: bind: Address already in use
+errno=98
+
+    0.0000 MB /   0.00 sec =    0.0000 Mbps 90 %TX 0 %RX 13.96 msRTT
