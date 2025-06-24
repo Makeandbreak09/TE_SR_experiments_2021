@@ -15,13 +15,13 @@ class Tests:
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
 		self.TESTFILES = [
-			# 'Joint.topo.sh', 
-			# 'Weights.topo.sh', 
+			'Joint.topo.sh', 
+			'Weights.topo.sh', 
 			'LeastLoadedLinkFirst.topo.sh'
 		]
 		self.JSON_FILES = [
-			# 'joint.json', 
-			# 'weights.json', 
+			'joint.json', 
+			'weights.json', 
 			'least_loaded_link_first.json'
 		]
 		# ID of the first test.

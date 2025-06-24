@@ -1,49 +1,9 @@
 { 
     "demands": [
         {
-            "src": 0, 
-            "dst": 1, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "1": 1
-            }
-        }, 
-        {
-            "src": 0, 
-            "dst": 1, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "1": 1
-            }
-        }, 
-        {
-            "src": 0, 
-            "dst": 1, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "1": 1
-            }
-        }, 
-        {
             "src": 2, 
             "dst": 1, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1
-            }
-        }, 
-        {
-            "src": 2, 
-            "dst": 1, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1
-            }
-        }, 
-        {
-            "src": 2, 
-            "dst": 1, 
-            "demand_size": 0.3333333333333333, 
+            "demand_size": 1, 
             "waypoint_chance_map": {
                 "1": 1
             }
@@ -51,25 +11,7 @@
         {
             "src": 6, 
             "dst": 2, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "2": 1
-            }
-        }, 
-        {
-            "src": 6, 
-            "dst": 2, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "2": 1
-            }
-        }, 
-        {
-            "src": 6, 
-            "dst": 2, 
-            "demand_size": 0.3333333333333333, 
+            "demand_size": 1, 
             "waypoint_chance_map": {
                 "1": 1, 
                 "2": 1
@@ -78,25 +20,7 @@
         {
             "src": 3, 
             "dst": 6, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "6": 1
-            }
-        }, 
-        {
-            "src": 3, 
-            "dst": 6, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "6": 1
-            }
-        }, 
-        {
-            "src": 3, 
-            "dst": 6, 
-            "demand_size": 0.3333333333333333, 
+            "demand_size": 1, 
             "waypoint_chance_map": {
                 "1": 1, 
                 "6": 1
@@ -105,103 +29,16 @@
         {
             "src": 0, 
             "dst": 4, 
-            "demand_size": 0.3333333333333333, 
+            "demand_size": 1, 
             "waypoint_chance_map": {
                 "1": 1, 
                 "4": 1
             }
         }, 
         {
-            "src": 0, 
-            "dst": 4, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "4": 1
-            }
-        }, 
-        {
-            "src": 0, 
-            "dst": 4, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "4": 1
-            }
-        }, 
-        {
-            "src": 1, 
-            "dst": 0, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "0": 1
-            }
-        }, 
-        {
-            "src": 1, 
-            "dst": 0, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "0": 1
-            }
-        }, 
-        {
-            "src": 1, 
-            "dst": 0, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "0": 1
-            }
-        }, 
-        {
-            "src": 0, 
-            "dst": 2, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "2": 1
-            }
-        }, 
-        {
-            "src": 0, 
-            "dst": 2, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "2": 1
-            }
-        }, 
-        {
-            "src": 0, 
-            "dst": 2, 
-            "demand_size": 0.0, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "2": 1
-            }
-        }, 
-        {
             "src": 4, 
             "dst": 0, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "0": 1
-            }
-        }, 
-        {
-            "src": 4, 
-            "dst": 0, 
-            "demand_size": 0.3333333333333333, 
-            "waypoint_chance_map": {
-                "1": 1, 
-                "0": 1
-            }
-        }, 
-        {
-            "src": 4, 
-            "dst": 0, 
-            "demand_size": 0.3333333333333333, 
+            "demand_size": 1, 
             "waypoint_chance_map": {
                 "1": 1, 
                 "0": 1
@@ -297,3 +134,4 @@
     ], 
     "max_link_utilization": 1.0
 }
+
