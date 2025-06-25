@@ -59,7 +59,7 @@ def box_plot_all_top(df_plot, x_label="Model\n", y_label="\nMax. Normalized Link
 	#plt.savefig(file_name.replace(" ", ""), bbox_inches="tight", format='pdf')
 	#plt.close()
 	#print(file_name)
-	plt.yticks([0,1],['Joint','Weights'])
+	plt.yticks([0,1,2],['Joint','Weights', 'LLLF'])
 	plt.tight_layout()
 	plt.grid()
 	plt.show()
@@ -73,15 +73,19 @@ def read_csv_data(filename : str, filter_filename : str):
 
 data_joint   = read_csv_data( CSV_FILENAME, "Joint.topo.sh")
 data_weights = read_csv_data( CSV_FILENAME, "Weights.topo.sh")
+data_lllf = read_csv_data( CSV_FILENAME, "LeastLoadedLinkFirst.topo.sh")
 
-data_all = [data_joint, data_weights]
+data_all = [data_joint, data_weights, data_lllf]
 
 box_plot_all_top(data_all)
 
 # Statistical data printed to stdout
 print("JOINT Median: ", statistics.median(data_joint))
 print("WEIGHTS Median: ", statistics.median(data_weights))
+print("LeastLoadedLinkFirst Median: ", statistics.median(data_lllf))
 print("JOINT Minimum: ", min(data_joint))
 print("WEIGHTS Minimum: ", min(data_weights))
+print("LeastLoadedLinkFirst Minimum: ", min(data_lllf))
 print("JOINT Maximum: ", max(data_joint))
 print("WEIGHTS Maximum: ", max(data_weights))
+print("LeastLoadedLinkFirst Maximum: ", max(data_lllf))
