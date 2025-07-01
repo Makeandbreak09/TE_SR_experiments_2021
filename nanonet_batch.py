@@ -15,13 +15,13 @@ class Tests:
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
 		self.TESTFILES = [
-			# 'Joint.topo.sh', 
-			# 'Weights.topo.sh', 
+			'Joint.topo.sh', 
+			'Weights.topo.sh', 
 			'LLLF.topo.sh'
 		]
 		self.JSON_FILES = [
-			# 'joint.json', 
-			# 'weights.json', 
+			'joint.json', 
+			'weights.json', 
 			'lllf.json'
 		]
 		# ID of the first test.
@@ -43,7 +43,8 @@ class Tests:
 	# Read the JSON file and fill the self.CAPACITY matrix.
 	def read_json(self, test_name : str):
 		json_filename = self.JSON_FILES[self.TESTFILES.index(test_name)]
-		with open("../json/" + json_filename) as json_file:
+		# print(os.getcwd())
+		with open("../../json/" + json_filename) as json_file:
 			data = json.load(json_file)
 		links = data['links']
 		for e in links:
