@@ -15,14 +15,14 @@ class Tests:
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
 		self.TESTFILES = [
-			'Joint.topo.sh', 
-			'Weights.topo.sh', 
-			'LeastLoadedLinkFirst.topo.sh'
+			# 'Joint.topo.sh', 
+			# 'Weights.topo.sh', 
+			'LLLF.topo.sh'
 		]
 		self.JSON_FILES = [
-			'joint.json', 
-			'weights.json', 
-			'least_loaded_link_first.json'
+			# 'joint.json', 
+			# 'weights.json', 
+			'lllf.json'
 		]
 		# ID of the first test.
 		# This number is used in the CSV file for identification and in the filename.
@@ -43,7 +43,7 @@ class Tests:
 	# Read the JSON file and fill the self.CAPACITY matrix.
 	def read_json(self, test_name : str):
 		json_filename = self.JSON_FILES[self.TESTFILES.index(test_name)]
-		with open("../" + json_filename) as json_file:
+		with open("../json/" + json_filename) as json_file:
 			data = json.load(json_file)
 		links = data['links']
 		for e in links:
@@ -61,8 +61,8 @@ class Tests:
 		folder_name = str(self.TEST_ID) + "_" + test_name
 		print("\nCreate test case "+folder_name)
 		mkdir(folder_name)
-		copy2(test_name, folder_name+"/")
-		copy2("./throughput.py", folder_name + "/")
+		copy2(f"../toposh/{test_name}", folder_name+"/")
+		copy2("../throughput.py", folder_name + "/")
 		chdir(folder_name)
 
 	# Run the test script in a subprocess.
@@ -185,6 +185,14 @@ class Tests:
 
 # MAIN
 # TODO (eventually): Change parameters here.
+
+# Change directory
+from datetime import datetime
+t = datetime.now()
+folder_name = t.strftime('%Y.%m.%d %H:%M')
+print(f"Opening Folder: {folder_name}")
+mkdir(f"./{folder_name}")
+chdir(f"./{folder_name}")
 
 tests = Tests()
 # Set starting test ID (overwrite value from constructor here)
