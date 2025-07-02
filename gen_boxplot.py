@@ -80,6 +80,8 @@ for path, subdirs, files in os.walk("."):
 		if file_name == CSV_FILENAME:
 			os.chdir(path)
 
+			print(f"Generating plot for {path}/{file_name}")
+
 			data_joint   = read_csv_data(file_name, "Joint.topo.sh")
 			data_weights = read_csv_data(file_name, "Weights.topo.sh")
 			data_lllf = read_csv_data(file_name, "LLLF.topo.sh")
@@ -101,5 +103,7 @@ for path, subdirs, files in os.walk("."):
 				print("LLLF Median: ", statistics.median(data_lllf))
 				print("LLLF Minimum: ", min(data_lllf))
 				print("LLLF Maximum: ", max(data_lllf))
+
+			print()
 
 			os.chdir("../")
