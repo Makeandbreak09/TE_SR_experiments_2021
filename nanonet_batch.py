@@ -17,12 +17,14 @@ class Tests:
 		self.TESTFILES = [
 			'Joint.topo.sh', 
 			'Weights.topo.sh', 
-			'LLLF.topo.sh'
+			'LLLF.topo.sh',
+			'apl.topo.sh'
 		]
 		self.JSON_FILES = [
 			'joint.json', 
 			'weights.json', 
-			'lllf.json'
+			'lllf.json',
+			'apl.json'
 		]
 		# ID of the first test.
 		# This number is used in the CSV file for identification and in the filename.

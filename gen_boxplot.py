@@ -24,6 +24,7 @@ algo_c_map = {
 	'JointHeur': "aquamarine",
 	'ILP Joint': "mediumseagreen",
 	'LLLP': "blue",
+	'apl': "red",
 	# 'DUO DemandFirst HeurOSPF': "mediumaquamarine",
 }
 
@@ -62,7 +63,7 @@ def box_plot_all_top(df_plot, x_label="Model\n", y_label="\nMax. Normalized Link
 	#plt.savefig(file_name.replace(" ", ""), bbox_inches="tight", format='pdf')
 	#plt.close()
 	#print(file_name)
-	plt.yticks([0,1,2],['Joint','Weights', 'LLLF'])
+	plt.yticks([0,1,2,3],['Joint','Weights', 'LLLF', 'APL'])
 	plt.tight_layout()
 	plt.grid()
 	# plt.show()
@@ -85,8 +86,9 @@ for path, subdirs, files in os.walk("."):
 			data_joint   = read_csv_data(file_name, "Joint.topo.sh")
 			data_weights = read_csv_data(file_name, "Weights.topo.sh")
 			data_lllf = read_csv_data(file_name, "LLLF.topo.sh")
+			data_apl = read_csv_data(file_name, "apl.topo.sh")
 
-			data_all = [data_joint, data_weights, data_lllf]
+			data_all = [data_joint, data_weights, data_lllf, data_apl]
 
 			box_plot_all_top(data_all)
 
@@ -103,7 +105,10 @@ for path, subdirs, files in os.walk("."):
 				print("LLLF Median: ", statistics.median(data_lllf))
 				print("LLLF Minimum: ", min(data_lllf))
 				print("LLLF Maximum: ", max(data_lllf))
-
+            if len(data_apl) > 0:
+				print("APL Median: ", statistics.median(data_apl))
+				print("APL Minimum: ", min(data_apl))
+				print("APL Maximum: ", max(data_apl))
 			print()
 
 			os.chdir("../")
