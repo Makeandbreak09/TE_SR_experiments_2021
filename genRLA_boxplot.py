@@ -68,7 +68,7 @@ def read_csv_data(filename : str, filter_filename : str):
 		return list(map( lambda row: float(row[2]) , filter( lambda row: row[1].strip() == filter_filename, csvreader ) ))
 
 data_joint   = read_csv_data( CSV_FILENAME, "join.topo.sh")
-data_weights = read_csv_data( CSV_FILENAME, "weights.topo.sh")
+data_weights = read_csv_data( CSV_FILENAME, "weightsRLA.topo.sh")
 data_random  = read_csv_data( CSV_FILENAME, "RLA.topo.sh")
 
 data_all = [data_joint, data_weights, data_random]
