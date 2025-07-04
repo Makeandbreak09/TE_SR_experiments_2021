@@ -116,5 +116,6 @@
             "capacity": 2.0,
             "weight": 1.0
         }
-    ]
+    ],
+    "max_link_utilization": 2.0
  }
