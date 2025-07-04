@@ -1,5 +1,5 @@
 # Execution
-This Project is an extension of [https://github.com/tfenz/TE_SR_WAN_simulation.git](https://github.com/nikolaussuess/TE_SR_experiments_2021). This Code extends the original project by 3 new algorithms LeastLoadedLinkFirst(LLLF), ... and ... . We also analyse two other objectives for these algorithms, namely AveragePathLength(ALU) and AveragePathLength(APL). For further information on all the dependencies and how to set up the project go to the original. There is all the information you should need.
+This Project is an extension of [https://github.com/tfenz/TE_SR_WAN_simulation.git](https://github.com/nikolaussuess/TE_SR_experiments_2021). This Code extends the original project by 3 new algorithms LeastLoadedLinkFirst(LLLF), APL and ... . We also analyse two other objectives for these algorithms, namely AveragePathLength(ALU) and AveragePathLength(APL). For further information on all the dependencies and how to set up the project go to the original. There is all the information you should need.
 To execute the project, there are different methods for each algorithm.
 
 ## LLLF
@@ -14,8 +14,19 @@ python3.6 get_boxplot.py
 ```
 In all the directories with a `batch_result001.csv` file, there will be a png created.
 
-## ...
-
+## APL
+To execute, run:
+Note: If this command was already executed to run LLLF, then APL was already executed
+``` 
+python3.6 nanonet_batch.py
+```
+In analogy to LLF there will be a directory containing the results named with a timestamp
+To plot the results run: 
+Note: Again if this was already run for LLLF the results for APL will also be present
+```
+python3.6 gen_boxplot.py
+```
+This creates a plot for each `batch_results001.csv` file present.
 ## ...
 
 
