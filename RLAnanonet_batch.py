@@ -13,8 +13,8 @@ class Tests:
 	def __init__(self):
 		# TODO (eventually): DEFINE PARAMETERS HERE!
 		# Names of the script files and the JSON files
-		self.TESTFILES = ['RLA.topo.sh', 'join.topo.sh','weights.topo.sh']
-		self.JSON_FILES = ['RLA.json', 'joint.json', 'weights.json']
+		self.TESTFILES = ['RLA.topo.sh', 'weightsRLA.topo.sh']
+		self.JSON_FILES = ['RLA.json', 'weightsRLA.json']
 		# ID of the first test.
 		# This number is used in the CSV file for identification and in the filename.
 		# It is incremented for every new test case.
@@ -168,13 +168,12 @@ tests = Tests()
 # Set starting test ID (overwrite value from constructor here)
 tests.TEST_ID = 99
 # run 100x
-for i in range(1, 10):
+for i in range(1, 11):
 	for script in tests.TESTFILES:
 		if script == 'RLA.topo.sh':
 			tests.MAX_NODE = 9
 		else:
-			tests.MAX_NODE = 4
-
+			tests.MAX_NODE = 9
 		print(f"Check Nr.{i} for {script} started")
 		tests.create_test_case(script)
 		print("Test created")
