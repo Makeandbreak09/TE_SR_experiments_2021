@@ -29,6 +29,10 @@ python3.6 gen_boxplot.py
 This creates a plot for each `batch_results001.csv` file present.
 ## ...
 
+## RLA
+To execute you just run: python3.6 RLAnanonet_batch.py . There will be a  batch_results001.csv .To get the results of this the test, you just run: python3.6 genRLA_boxplot.py . This creates a plot for the batch_results001.csv file present.
+
+
 
 
 
