@@ -1,0 +1,362 @@
+server aborted connection
+nuttcp-t: v6.1.2: error from server
+RTY: 1
+connect failed: Connection refused
+interval option only supported for client/server mode
+RTY: 2
+server aborted connection
+nuttcp-t: v6.1.2: error from server
+RTY: 4
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 7
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 10
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 16
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 19
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 22
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 28
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 31
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 36
+nuttcp-r: v6.1.2: Error: bind: Address already in use
+errno=98
+nuttcp-t: v6.1.2: Error: IO: Broken pipe
+errno=32
+RTY: 44
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 46
+nuttcp-r: v6.1.2: Error: bind: Address already in use
+errno=98
+nuttcp-t: v6.1.2: Error: IO: Broken pipe
+errno=32
+RTY: 57
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 64
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 66
+nuttcp-t: v6.1.2: Error: connect: Connection refused
+errno=111
+RTY: 69
+nuttcp-r: v6.1.2: Error: bind: Address already in use
+errno=98
+nuttcp-t: v6.1.2: Error: IO: Broken pipe
+errno=32
+RTY: 79
+    0.7500 MB /   1.01 sec =    6.2297 Mbps
+    0.8750 MB /   1.06 sec =    6.8978 Mbps
+    1.7500 MB /   0.96 sec =   15.3338 Mbps
+    1.1875 MB /   0.99 sec =   10.0827 Mbps
+    1.0000 MB /   0.99 sec =    8.4770 Mbps
+    1.3750 MB /   1.00 sec =   11.5687 Mbps
+    1.2500 MB /   0.99 sec =   10.5473 Mbps
+    1.1250 MB /   1.00 sec =    9.4146 Mbps
+    1.1875 MB /   1.00 sec =    9.9796 Mbps
+    1.3750 MB /   1.19 sec =    9.7196 Mbps
+    1.0000 MB /   0.85 sec =    9.9246 Mbps
+    1.0625 MB /   1.01 sec =    8.8002 Mbps
+    1.1250 MB /   1.02 sec =    9.2251 Mbps
+    1.4375 MB /   0.94 sec =   12.8907 Mbps
+    1.0625 MB /   1.00 sec =    8.9364 Mbps
+    1.2500 MB /   1.00 sec =   10.4563 Mbps
+    1.1875 MB /   1.10 sec =    9.0502 Mbps
+    1.1875 MB /   0.93 sec =   10.6600 Mbps
+    0.8125 MB /   1.38 sec =    4.9512 Mbps
+    1.6250 MB /   0.67 sec =   20.3005 Mbps
+    1.0000 MB /   0.98 sec =    8.5752 Mbps
+    1.1875 MB /   0.93 sec =   10.6571 Mbps
+    1.3125 MB /   1.02 sec =   10.7923 Mbps
+    1.1250 MB /   1.14 sec =    8.3127 Mbps
+    1.2500 MB /   0.91 sec =   11.5310 Mbps
+    1.2500 MB /   0.94 sec =   11.2065 Mbps
+    1.1250 MB /   1.01 sec =    9.3045 Mbps
+    0.7500 MB /   1.41 sec =    4.4483 Mbps
+    1.1875 MB /   0.78 sec =   12.7519 Mbps
+    1.8125 MB /   0.85 sec =   17.9448 Mbps
+    0.9375 MB /   0.95 sec =    8.2889 Mbps
+    1.4375 MB /   1.12 sec =   10.7885 Mbps
+    1.1875 MB /   1.02 sec =    9.7262 Mbps
+    0.8750 MB /   1.26 sec =    5.8339 Mbps
+    1.5000 MB /   0.73 sec =   17.3236 Mbps
+    0.9375 MB /   0.94 sec =    8.3577 Mbps
+    1.5000 MB /   0.94 sec =   13.3239 Mbps
+    1.1250 MB /   0.98 sec =    9.6109 Mbps
+    1.1250 MB /   1.02 sec =    9.2630 Mbps
+    1.1250 MB /   1.11 sec =    8.5106 Mbps
+    0.7500 MB /   1.05 sec =    5.9845 Mbps
+    1.6875 MB /   0.88 sec =   16.1754 Mbps
+    1.2500 MB /   0.97 sec =   10.7811 Mbps
+    0.9375 MB /   0.98 sec =    8.0578 Mbps
+    1.3750 MB /   1.04 sec =   11.0571 Mbps
+    1.1250 MB /   0.96 sec =    9.8346 Mbps
+    1.3750 MB /   1.21 sec =    9.5217 Mbps
+    0.6250 MB /   1.21 sec =    4.3217 Mbps
+    1.1250 MB /   0.76 sec =   12.4642 Mbps
+    1.6250 MB /   0.90 sec =   15.1147 Mbps
+    1.3125 MB /   0.91 sec =   12.0861 Mbps
+    1.2500 MB /   1.12 sec =    9.3487 Mbps
+    1.0000 MB /   0.95 sec =    8.8111 Mbps
+    1.3750 MB /   0.98 sec =   11.7248 Mbps
+    1.0000 MB /   0.95 sec =    8.8505 Mbps
+    1.3125 MB /   1.00 sec =   10.9907 Mbps
+    1.1250 MB /   1.00 sec =    9.4776 Mbps
+    1.0625 MB /   1.05 sec =    8.5127 Mbps
+    1.4375 MB /   0.98 sec =   12.3425 Mbps
+    1.1250 MB /   0.98 sec =    9.6768 Mbps
+    0.7500 MB /   1.08 sec =    5.8007 Mbps
+    0.8125 MB /   1.32 sec =    5.1463 Mbps
+    2.1250 MB /   0.63 sec =   28.4278 Mbps
+    1.1875 MB /   1.12 sec =    8.8683 Mbps
+    1.1875 MB /   0.87 sec =   11.3951 Mbps
+    1.1250 MB /   1.00 sec =    9.4671 Mbps
+    1.1875 MB /   0.99 sec =   10.0118 Mbps
+    1.1875 MB /   0.97 sec =   10.2263 Mbps
+    1.3125 MB /   1.42 sec =    7.7809 Mbps
+    1.1250 MB /   0.59 sec =   15.9655 Mbps
+    1.0625 MB /   1.05 sec =    8.4902 Mbps
+    1.2500 MB /   1.02 sec =   10.2926 Mbps
+    1.2500 MB /   0.93 sec =   11.3104 Mbps
+    1.3125 MB /   1.00 sec =   11.0274 Mbps
+    1.0000 MB /   1.12 sec =    7.4834 Mbps
+    1.1250 MB /   0.91 sec =   10.3463 Mbps
+    1.3125 MB /   1.12 sec =    9.8331 Mbps
+    1.1250 MB /   0.91 sec =   10.3296 Mbps
+    1.0000 MB /   0.95 sec =    8.8199 Mbps
+    1.4375 MB /   1.08 sec =   11.1701 Mbps
+    1.3125 MB /   1.10 sec =   10.0198 Mbps
+    0.9375 MB /   1.14 sec =    6.9286 Mbps
+    1.3750 MB /   0.73 sec =   15.8321 Mbps
+    1.2500 MB /   1.04 sec =   10.1058 Mbps
+    0.8125 MB /   1.34 sec =    5.1024 Mbps
+    1.5000 MB /   0.57 sec =   22.1877 Mbps
+    1.1875 MB /   1.00 sec =    9.9647 Mbps
+    1.1250 MB /   1.03 sec =    9.1275 Mbps
+    1.0625 MB /   0.99 sec =    8.9590 Mbps
+    1.3125 MB /   1.06 sec =   10.3935 Mbps
+    0.9375 MB /   0.91 sec =    8.5961 Mbps
+    1.4375 MB /   1.13 sec =   10.6876 Mbps
+    1.0625 MB /   0.90 sec =    9.9181 Mbps
+    1.3125 MB /   1.03 sec =   10.6771 Mbps
+    1.1875 MB /   0.95 sec =   10.5000 Mbps
+    0.8750 MB /   1.01 sec =    7.2728 Mbps
+    1.5000 MB /   1.04 sec =   12.0641 Mbps
+    1.2500 MB /   0.94 sec =   11.1940 Mbps
+    1.1250 MB /   1.00 sec =    9.4264 Mbps
+    1.2500 MB /   1.11 sec =    9.4836 Mbps
+    1.2500 MB /   1.00 sec =   10.4470 Mbps
+    1.1250 MB /   0.96 sec =    9.8690 Mbps
+    0.5625 MB /   1.33 sec =    3.5544 Mbps
+    1.8750 MB /   0.61 sec =   25.9065 Mbps
+    1.1250 MB /   1.00 sec =    9.4455 Mbps
+    1.3125 MB /   1.00 sec =   11.0170 Mbps
+    0.6250 MB /   1.00 sec =    5.2387 Mbps
+    1.6875 MB /   1.01 sec =   13.9629 Mbps
+    1.0625 MB /   0.99 sec =    9.0198 Mbps
+    0.7500 MB /   1.22 sec =    5.1737 Mbps
+    1.8125 MB /   0.81 sec =   18.7792 Mbps
+    1.1875 MB /   0.97 sec =   10.2471 Mbps
+    1.1875 MB /   1.04 sec =    9.6019 Mbps
+    1.0000 MB /   1.10 sec =    7.6040 Mbps
+    1.2500 MB /   0.87 sec =   12.0841 Mbps
+    1.0000 MB /   0.99 sec =    8.4497 Mbps
+    1.5000 MB /   1.14 sec =   11.0739 Mbps
+    1.1250 MB /   1.04 sec =    9.0731 Mbps
+    1.1250 MB /   0.83 sec =   11.3738 Mbps
+    0.6250 MB /   1.40 sec =    3.7318 Mbps
+    1.8750 MB /   0.64 sec =   24.6397 Mbps
+    1.1250 MB /   1.02 sec =    9.2217 Mbps
+    1.1875 MB /   0.93 sec =   10.7618 Mbps
+    0.7500 MB /   1.45 sec =    4.3527 Mbps
+    0.5625 MB /   0.96 sec =    4.8958 Mbps
+    1.8125 MB /   0.61 sec =   24.7444 Mbps
+    1.7500 MB /   0.98 sec =   14.9378 Mbps
+    1.3125 MB /   1.00 sec =   11.0648 Mbps
+    1.1875 MB /   1.24 sec =    8.0064 Mbps
+    1.0000 MB /   0.76 sec =   11.0604 Mbps
+    0.8750 MB /   1.03 sec =    7.1318 Mbps
+    1.4375 MB /   0.99 sec =   12.2022 Mbps
+    1.4375 MB /   1.10 sec =   11.0004 Mbps
+    1.1250 MB /   0.88 sec =   10.6787 Mbps
+    1.0625 MB /   1.02 sec =    8.7544 Mbps
+    1.3750 MB /   0.99 sec =   11.6947 Mbps
+    1.1250 MB /   1.00 sec =    9.4583 Mbps
+    0.8750 MB /   1.06 sec =    6.9485 Mbps
+    1.4375 MB /   0.94 sec =   12.8076 Mbps
+    1.1875 MB /   1.02 sec =    9.7331 Mbps
+    0.9375 MB /   1.01 sec =    7.7597 Mbps
+    1.2500 MB /   1.00 sec =   10.4991 Mbps
+    1.3750 MB /   1.13 sec =   10.2279 Mbps
+    0.9375 MB /   0.85 sec =    9.2592 Mbps
+    1.5625 MB /   1.12 sec =   11.7111 Mbps
+    1.0625 MB /   0.88 sec =   10.0752 Mbps
+    0.5000 MB /   1.11 sec =    3.7879 Mbps
+    1.8125 MB /   0.88 sec =   17.3730 Mbps
+    1.4375 MB /   1.16 sec =   10.3520 Mbps
+    1.1250 MB /   0.92 sec =   10.2475 Mbps
+    1.0000 MB /   0.91 sec =    9.1728 Mbps
+    1.4375 MB /   1.13 sec =   10.7076 Mbps
+    0.6250 MB /   0.94 sec =    5.5838 Mbps
+    1.5000 MB /   0.95 sec =   13.2238 Mbps
+    1.3750 MB /   1.04 sec =   11.1246 Mbps
+    1.0625 MB /   1.08 sec =    8.2300 Mbps
+    1.1875 MB /   0.89 sec =   11.2231 Mbps
+    1.1875 MB /   1.37 sec =    7.2881 Mbps
+    1.3125 MB /   0.63 sec =   17.4790 Mbps
+    1.3125 MB /   1.00 sec =   10.9719 Mbps
+    1.0625 MB /   0.98 sec =    9.1412 Mbps
+    1.1875 MB /   1.01 sec =    9.8574 Mbps
+    1.0625 MB /   1.02 sec =    8.6984 Mbps
+    1.3750 MB /   1.02 sec =   11.2831 Mbps
+    1.1250 MB /   0.95 sec =    9.9676 Mbps
+    1.1875 MB /   1.07 sec =    9.2675 Mbps
+    1.2500 MB /   1.07 sec =    9.8024 Mbps
+    1.0000 MB /   0.86 sec =    9.7742 Mbps
+    1.3125 MB /   1.00 sec =   11.0134 Mbps
+    1.1875 MB /   0.99 sec =   10.0310 Mbps
+    1.3750 MB /   1.00 sec =   11.5197 Mbps
+    0.9375 MB /   1.00 sec =    7.8722 Mbps
+    0.3125 MB /   1.43 sec =    1.8387 Mbps
+    1.6875 MB /   0.58 sec =   24.4100 Mbps
+    1.7500 MB /   0.99 sec =   14.7600 Mbps
+    1.1875 MB /   1.13 sec =    8.8022 Mbps
+    1.1875 MB /   0.94 sec =   10.6108 Mbps
+    1.0625 MB /   0.93 sec =    9.5666 Mbps
+    1.3125 MB /   1.00 sec =   10.9700 Mbps
+    1.1875 MB /   1.00 sec =    9.9470 Mbps
+    0.6875 MB /   1.40 sec =    4.1072 Mbps
+    1.7500 MB /   0.62 sec =   23.6367 Mbps
+    1.1250 MB /   0.98 sec =    9.6523 Mbps
+    1.1875 MB /   0.99 sec =   10.0597 Mbps
+    0.1875 MB /   1.41 sec =    1.1151 Mbps
+    0.0000 MB /   1.00 sec =    0.0000 Mbps
+    2.5000 MB /   0.67 sec =   31.2121 Mbps
+    2.0000 MB /   0.92 sec =   18.2387 Mbps
+    1.0000 MB /   1.03 sec =    8.1163 Mbps
+    1.2500 MB /   1.00 sec =   10.5324 Mbps
+    1.3125 MB /   0.97 sec =   11.3291 Mbps
+    0.5625 MB /   1.41 sec =    3.3361 Mbps
+    1.8750 MB /   0.62 sec =   25.4500 Mbps
+    1.0625 MB /   1.03 sec =    8.6599 Mbps
+    1.1875 MB /   0.94 sec =   10.6399 Mbps
+    1.4375 MB /   1.04 sec =   11.5727 Mbps
+    1.1875 MB /   1.05 sec =    9.4512 Mbps
+    1.0625 MB /   1.32 sec =    6.7720 Mbps
+    1.2500 MB /   0.59 sec =   17.8355 Mbps
+    1.1250 MB /   1.02 sec =    9.2503 Mbps
+    1.3750 MB /   0.98 sec =   11.7734 Mbps
+    1.1875 MB /   1.18 sec =    8.4648 Mbps
+    0.9375 MB /   0.83 sec =    9.4578 Mbps
+    1.3125 MB /   0.99 sec =   11.1049 Mbps
+    1.0625 MB /   1.08 sec =    8.2641 Mbps
+    1.1250 MB /   0.96 sec =    9.8767 Mbps
+    1.3750 MB /   1.01 sec =   11.4142 Mbps
+    1.2500 MB /   0.96 sec =   10.8687 Mbps
+    1.0000 MB /   1.00 sec =    8.4295 Mbps
+    1.3125 MB /   1.11 sec =    9.8863 Mbps
+    0.4375 MB /   1.30 sec =    2.8224 Mbps
+    2.0625 MB /   0.67 sec =   25.8241 Mbps
+    1.0625 MB /   0.96 sec =    9.2612 Mbps
+    1.2500 MB /   0.96 sec =   10.9680 Mbps
+    0.6875 MB /   1.43 sec =    4.0396 Mbps
+    1.6250 MB /   0.58 sec =   23.5384 Mbps
+    1.1875 MB /   0.99 sec =   10.0963 Mbps
+    1.4375 MB /   1.00 sec =   12.0592 Mbps
+    0.8750 MB /   1.05 sec =    6.9812 Mbps
+    1.1250 MB /   0.95 sec =    9.9482 Mbps
+    1.3750 MB /   1.00 sec =   11.5101 Mbps
+    1.0000 MB /   1.09 sec =    7.6617 Mbps
+    1.5625 MB /   0.91 sec =   14.4356 Mbps
+    0.9375 MB /   1.03 sec =    7.6142 Mbps
+    1.2500 MB /   1.02 sec =   10.2752 Mbps
+    1.3125 MB /   0.94 sec =   11.6622 Mbps
+    1.1250 MB /   1.00 sec =    9.3928 Mbps
+    1.1875 MB /   1.08 sec =    9.2203 Mbps
+    1.1250 MB /   0.92 sec =   10.2103 Mbps
+    1.3125 MB /   1.05 sec =   10.4958 Mbps
+    1.1250 MB /   0.97 sec =    9.6936 Mbps
+    1.0000 MB /   1.00 sec =    8.4106 Mbps
+    0.8750 MB /   1.13 sec =    6.4846 Mbps
+    1.6875 MB /   0.84 sec =   16.9319 Mbps
+    1.2500 MB /   1.09 sec =    9.5841 Mbps
+    1.0000 MB /   0.94 sec =    8.8958 Mbps
+    1.1250 MB /   1.38 sec =    6.8492 Mbps
+    0.3125 MB /   1.00 sec =    2.6283 Mbps
+    2.4375 MB /   0.70 sec =   29.2984 Mbps
+    1.0000 MB /   1.00 sec =    8.4062 Mbps
+    0.8750 MB /   1.33 sec =    5.5077 Mbps
+    1.6875 MB /   0.78 sec =   18.0599 Mbps
+    0.6250 MB /   1.17 sec =    4.4846 Mbps
+    1.3750 MB /   0.64 sec =   17.9284 Mbps
+    1.3750 MB /   1.02 sec =   11.3096 Mbps
+    1.1875 MB /   0.99 sec =   10.0144 Mbps
+    0.8125 MB /   1.36 sec =    5.0114 Mbps
+    1.5625 MB /   0.64 sec =   20.5761 Mbps
+    1.4375 MB /   1.15 sec =   10.4528 Mbps
+    0.5625 MB /   1.22 sec =    3.8573 Mbps
+    1.8125 MB /   0.72 sec =   21.2092 Mbps
+    1.1250 MB /   0.99 sec =    9.5259 Mbps
+    1.2500 MB /   1.00 sec =   10.5116 Mbps
+    1.0000 MB /   0.87 sec =    9.6139 Mbps
+    1.3125 MB /   1.01 sec =   10.8805 Mbps
+    1.2500 MB /   0.99 sec =   10.6449 Mbps
+    1.0000 MB /   1.01 sec =    8.3277 Mbps
+    1.1875 MB /   0.99 sec =   10.0136 Mbps
+    1.3125 MB /   1.01 sec =   10.9551 Mbps
+    1.0625 MB /   0.99 sec =    8.9763 Mbps
+    1.1875 MB /   1.10 sec =    9.0734 Mbps
+    1.2500 MB /   1.38 sec =    7.5760 Mbps
+    0.8125 MB /   0.91 sec =    7.4987 Mbps
+    1.3750 MB /   0.65 sec =   17.8328 Mbps
+    1.3750 MB /   0.97 sec =   11.8459 Mbps
+    1.4375 MB /   0.99 sec =   12.1288 Mbps
+    0.2500 MB /   1.41 sec =    1.4870 Mbps
+    0.0000 MB /   1.01 sec =    0.0000 Mbps
+    2.0000 MB /   0.99 sec =   16.9245 Mbps
+    2.5000 MB /   0.60 sec =   34.7348 Mbps
+    1.1875 MB /   0.98 sec =   10.1680 Mbps
+    1.1875 MB /   1.02 sec =    9.7249 Mbps
+    1.1250 MB /   1.38 sec =    6.8504 Mbps
+    0.0000 MB /   1.01 sec =    0.0000 Mbps
+    1.9375 MB /   0.59 sec =   27.5506 Mbps
+    1.6250 MB /   1.01 sec =   13.5225 Mbps
+    0.4375 MB /   1.40 sec =    2.6195 Mbps
+    2.0000 MB /   0.62 sec =   27.2663 Mbps
+    1.1875 MB /   0.97 sec =   10.2383 Mbps
+    1.2500 MB /   1.02 sec =   10.2596 Mbps
+    0.8125 MB /   1.05 sec =    6.5006 Mbps
+    1.4375 MB /   0.94 sec =   12.8741 Mbps
+    1.2500 MB /   1.38 sec =    7.5768 Mbps
+    0.2500 MB /   0.61 sec =    3.4508 Mbps
+    2.0000 MB /   1.16 sec =   14.4531 Mbps
+    1.6875 MB /   1.25 sec =   11.3541 Mbps
+    0.1250 MB /   0.60 sec =    1.7455 Mbps
+    1.0625 MB /   1.38 sec =    6.4619 Mbps
+    2.0625 MB /   0.61 sec =   28.3565 Mbps
+    1.1875 MB /   1.01 sec =    9.8653 Mbps
+    1.3125 MB /   1.42 sec =    7.7635 Mbps
+    1.0000 MB /   0.99 sec =    8.4895 Mbps
+    0.8125 MB /   0.99 sec =    6.9072 Mbps
+    1.0000 MB /   0.68 sec =   12.3580 Mbps
+    1.8125 MB /   0.94 sec =   16.1990 Mbps
+    1.0000 MB /   1.12 sec =    7.4883 Mbps
+    1.3750 MB /   0.86 sec =   13.3629 Mbps
+    1.2500 MB /   1.00 sec =   10.4598 Mbps
+    1.1875 MB /   1.42 sec =    7.0198 Mbps
+    0.9375 MB /   0.58 sec =   13.6014 Mbps
+
+  357.6875 MB / 300.07 sec =    9.9993 Mbps 54 %TX 0 %RX 20.16 msRTT

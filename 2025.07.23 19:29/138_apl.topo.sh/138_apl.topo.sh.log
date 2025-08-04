@@ -1,0 +1,69 @@
+
+warning: commands will be executed using /bin/sh
+job 316 at Thu Jul 24 00:37:00 2025
+
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.4-0.seg6_enabled = 1
+net.ipv6.conf.4-1.seg6_enabled = 1
+net.ipv6.conf.4-2.seg6_enabled = 1
+net.ipv6.conf.4-3.seg6_enabled = 1
+net.ipv6.conf.4-4.seg6_enabled = 1
+net.ipv6.conf.4-5.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.2-0.seg6_enabled = 1
+net.ipv6.conf.2-1.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.5-0.seg6_enabled = 1
+net.ipv6.conf.5-1.seg6_enabled = 1
+net.ipv6.conf.5-2.seg6_enabled = 1
+net.ipv6.conf.5-3.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.8-0.seg6_enabled = 1
+net.ipv6.conf.8-1.seg6_enabled = 1
+net.ipv6.conf.8-2.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.3-0.seg6_enabled = 1
+net.ipv6.conf.3-1.seg6_enabled = 1
+net.ipv6.conf.3-2.seg6_enabled = 1
+net.ipv6.conf.3-3.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.7-0.seg6_enabled = 1
+net.ipv6.conf.7-1.seg6_enabled = 1
+net.ipv6.conf.7-2.seg6_enabled = 1
+net.ipv6.conf.7-3.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.1-0.seg6_enabled = 1
+net.ipv6.conf.1-1.seg6_enabled = 1
+net.ipv6.conf.1-2.seg6_enabled = 1
+net.ipv6.conf.1-3.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.0-0.seg6_enabled = 1
+net.ipv6.conf.0-1.seg6_enabled = 1
+net.ipv6.conf.0-2.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.seg6_enabled = 1
+net.ipv6.conf.6-0.seg6_enabled = 1
+net.ipv6.conf.6-1.seg6_enabled = 1
+net.ipv6.fib_multipath_hash_policy = 1
+
+Kill all nuttcp commands
+b''
+b''
+b''
+b'\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n\nUsage:\n kill [options] <pid> [...]\n\nOptions:\n <pid> [...]            send signal to every <pid> listed\n -<signal>, -s, --signal <signal>\n                        specify the <signal> to be sent\n -l, --list=[<signal>]  list all signal names, or convert one to a name\n -L, --table            list all signal names in a nice table\n\n -h, --help     display this help and exit\n -V, --version  output version information and exit\n\nFor more details see kill(1).\n'
